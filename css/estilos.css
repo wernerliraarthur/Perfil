@@ -1,0 +1,88 @@
+
+ @font-face{
+    font-family: arthur;
+    src: url(TiroDevanagariSanskrit-Regular.ttf);
+ }
+  :root {
+    --cor-fundo:#D8F0F2,;
+    --cor-titulo:#142240;
+    --cor-pagrafo:#243569;
+    --cor-link:#27459e;
+    --fonte: arthur;
+ }
+
+body {
+    background-image: linear-gradient(to bottom, #6F96A6, #b1ced1 ); 
+    background-attachment: fixed;
+    font-family: var(--fonte);
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+    /*
+     margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+     */
+}
+
+h1 {
+    text-align: center;
+    color: var(--cor-titulo)
+}
+
+h2 {
+    color: var(--cor-titulo);
+    text-align: center;
+}
+
+h3 {
+    color: var(--cor-titulo);
+}
+
+p {
+    text-align: justify;
+    color: var(--cor-pagrafo);
+}
+
+div.lista img {
+   width: 18px;
+   border-width: 0px;
+   border-radius: 0%;
+
+}
+
+ ul {
+    list-style: none;
+    padding: 0;
+    
+}
+div.perfil {
+    text-align: center;
+    
+} 
+
+img {
+    width: 300px;
+    border-radius: 10%;
+    border-color:var(--cor-titulo);
+    border-width: 1px;
+    border-style: solid;
+
+}
+ a {
+    color:var(--cor-link);
+    text-decoration: none;
+
+}
+
+div.família {
+    text-align: center;
+
+}
+
+hr {
+    border-color: var(--cor-link);
+
+}
+
